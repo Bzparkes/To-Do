@@ -12,9 +12,14 @@ body{
     max-width: 400px;
   }
   .todos li{
-      color: white;
+    color: white;
     background: #423a6f;
+    margin-bottom: 1px;
   }
   .delete{
     cursor: pointer;
   }
+.filtered{
+  display: none !important;
+}
+  
